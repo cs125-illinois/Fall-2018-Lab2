@@ -165,7 +165,8 @@
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
 
-        <module name="MagicNumber"/>
+        <!-- Lab1: We need magic numbers for this one. -->
+        <!-- <module name="MagicNumber"/> -->
         <module name="MissingSwitchDefault"/>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
