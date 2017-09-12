@@ -1,0 +1,22 @@
+/*
+ * For more details take a look at the Java Quickstart chapter in the Gradle
+ * user guide available at https://docs.gradle.org/4.0.2/userguide/tutorial_java_projects.html
+ */
+
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.github.cs125-illinois:mazemaker:0.1'
+}
+
+checkstyle {
+    toolVersion "8.1"
+}
+
+// vim: ts=4:sw=4:et:ft=groovy
