@@ -9,13 +9,7 @@ import edu.illinois.cs.cs125.lib.mazemaker.Maze;
  */
 @SuppressWarnings("checkstyle:emptyblock")
 public class SolveMaze {
-
-    /**
-     * Implement your maze solving algorithm here.
-     *
-     * @param unused unused input arguments
-     */
-
+    
     public static void main(final String[] unused) {
         /*
          * Create a new 10 x 10 maze. Feel free to change these values.
