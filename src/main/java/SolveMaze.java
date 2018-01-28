@@ -11,7 +11,7 @@ import edu.illinois.cs.cs125.lib.mazemaker.Maze;
 public class SolveMaze {
 
     /**
-     * Implement your maze solving algorithm here.
+     * Implement your maze solving algorithm in the main method below.
      *
      * @param unused unused input arguments
      */
