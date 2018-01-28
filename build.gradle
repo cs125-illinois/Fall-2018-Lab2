@@ -16,7 +16,9 @@ dependencies {
 }
 
 checkstyle {
-    toolVersion "8.1"
+    toolVersion "8.7"
+    checkstyleTest.enabled = false
+    configFile = new File(rootDir, "config/checkstyle.xml")
 }
 
 // vim: ts=4:sw=4:et:ft=groovy
