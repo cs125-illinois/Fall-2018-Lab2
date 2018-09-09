@@ -1,14 +1,11 @@
-/*
- * For more details take a look at the Java Quickstart chapter in the Gradle
- * user guide available at https://docs.gradle.org/4.0.2/userguide/tutorial_java_projects.html
- */
-
 apply plugin: 'java'
 apply plugin: 'checkstyle'
 
 repositories {
     jcenter()
-    maven { url 'https://jitpack.io' }
+    maven {
+        url 'https://jitpack.io'
+    }
 }
 
 dependencies {
@@ -16,7 +13,7 @@ dependencies {
 }
 
 checkstyle {
-    toolVersion "8.7"
+    toolVersion "8.12"
     checkstyleTest.enabled = false
     configFile = new File(rootDir, "config/checkstyle.xml")
 }
